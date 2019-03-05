@@ -1,0 +1,4 @@
+## General notes and tips for Perl programming
+
+## Use an anonymous hash and extract the keys to remove duplicates
+my @uniqCmds = keys { map { $_ => undef } @cmds };
